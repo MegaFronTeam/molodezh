@@ -1,0 +1,114 @@
+.page__body {
+  background-color: var(--primary-color);
+}
+
+.logo-main {
+  fill: var(--secondary-color);
+}
+
+.nav-main .nav__link {
+  color: var(--light-color);
+}
+
+.icon.main {
+  fill: var(--secondary-color);
+}
+
+.socials-main svg {
+  fill: var(--light-color);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.content__title::after {
+  content: "";
+  position: absolute;
+  top: -4%;
+  left: -149%;
+  background: no-repeat url("../assets/img/404.png");
+  width: 2500px;
+  height: 516px;
+  z-index: -2;
+  -webkit-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.content .content__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 429.63px;
+  line-height: 1;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.content .content__title::before {
+  content: "404";
+  color: #8C64D8;
+  position: absolute;
+  bottom: 20px;
+  left: 26px;
+  z-index: -1;
+}
+
+.content__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.btn-not-found {
+  display: block;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1023px) {
+  .content .content__title {
+    font-size: 360px;
+  }
+
+  .content__title::after {
+    top: -13%;
+    left: -177%;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content .content__title {
+    font-size: 153px;
+  }
+
+  .content__title::after {
+    top: -254%;
+    left: -48%;
+    -webkit-transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    transform: rotate(-4deg);
+    width: 500px;
+    height: 956px;
+  }
+}
+
+/*# sourceMappingURL=404.css.map */

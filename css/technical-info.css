@@ -1,0 +1,315 @@
+.section-title {
+  margin-bottom: 56px;
+}
+
+.icon.device-desktop,
+.icon.device-tablet,
+.icon.device-mobile {
+  width: 40px;
+  height: 40px;
+  fill: #8C64D8;
+}
+
+.technical {
+  margin-bottom: 110px;
+}
+.technical-inner {
+  width: 979px;
+}
+.technical-box-wrap {
+  margin-bottom: 64px;
+}
+.technical-box {
+  margin-bottom: 64px;
+}
+.technical-box:last-child {
+  margin-bottom: 0;
+}
+.technical-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #252525;
+  margin-bottom: 16px;
+}
+.technical-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #535353;
+}
+.technical-devices {
+  margin-bottom: 52px;
+}
+.technical-devices-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #252525;
+  margin-bottom: 32px;
+}
+.technical-devices-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.technical-devices-item {
+  width: 305px;
+}
+.technical-devices-img {
+  margin-bottom: 24px;
+}
+.technical-devices-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #535353;
+  max-width: 209px;
+}
+.technical-oc {
+  margin-bottom: 86px;
+}
+.technical-oc-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #252525;
+  margin-bottom: 32px;
+}
+.technical-oc-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.technical-oc-item {
+  width: 305px;
+  margin-right: 32px;
+}
+.technical-oc-item:last-child {
+  margin-right: 0;
+}
+.technical-oc-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8C64D8;
+  padding-right: 35px;
+}
+.technical-oc-list {
+  margin-top: 24px;
+  padding-left: 20px;
+}
+.technical-oc-point {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #535353;
+  margin-bottom: 5px;
+}
+.technical-oc-point:last-child {
+  margin-bottom: 0;
+}
+.technical-table {
+  margin-bottom: 64px;
+}
+.technical-table-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #252525;
+  margin-bottom: 32px;
+}
+.technical-table-header {
+  background: #F7F7F7;
+  border-bottom: 2px solid #DCDCDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.technical-table-header div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #535353;
+  padding: 10px 0;
+}
+.technical-table-header .technical-table-browsers {
+  padding-left: 10px;
+}
+.technical-table-browsers {
+  min-width: 238px;
+  max-width: 238px;
+  padding-left: 10px;
+}
+.technical-table-compatibility {
+  min-width: 294px;
+  max-width: 294px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%;
+}
+.technical-table-video {
+  min-width: 444px;
+  max-width: 444px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%;
+}
+.technical-table-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #F7F7F7;
+}
+.technical-table-item._info {
+  border-bottom: 2px solid #DCDCDC;
+}
+.technical-table-item._info div {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #535353;
+}
+.technical-table-item div {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #252525;
+}
+.technical-table-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 147px;
+  padding: 10px 0;
+}
+.technical-table-box._empty {
+  background: #F7F7F7;
+  padding: 0;
+}
+.technical-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+.technical-data:last-child {
+  margin-bottom: 0;
+}
+.technical-data-simbol {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #DCDCDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.technical-data-empty {
+  width: 24px;
+  height: 24px;
+  background: #F7F7F7;
+}
+.technical-data-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #535353;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 1023px) {
+  .technical-inner {
+    width: 100%;
+  }
+  .technical-table {
+    margin-bottom: 64px;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-title {
+    margin-bottom: 32px;
+    font-size: 24px;
+  }
+  .technical-title {
+    font-size: 20px;
+  }
+  .technical-text {
+    font-size: 14px;
+  }
+  .technical-devices-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .technical-devices-item {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .technical-devices-item:last-child {
+    margin-bottom: 0;
+  }
+  .technical-box-wrap {
+    margin-bottom: 32px;
+  }
+  .technical-devices-title, .technical-oc-title, .technical-table-title {
+    font-size: 20px;
+  }
+  .technical-devices-img {
+    margin-bottom: 16px;
+  }
+  .technical-oc {
+    margin-bottom: 64px;
+  }
+  .technical-oc-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .technical-oc-item {
+    width: 100%;
+    margin-right: unset;
+    margin-bottom: 16px;
+  }
+  .technical-oc-item:last-child {
+    margin-bottom: 0;
+  }
+  .technical-oc-list {
+    margin-top: 16px;
+    padding-left: 20px;
+  }
+}
+/*# sourceMappingURL=technical-info.css.map */

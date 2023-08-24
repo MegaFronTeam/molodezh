@@ -1,0 +1,177 @@
+.directions-detail {
+  padding-bottom: 30px;
+}
+.directions-detail .back-page {
+  display: none;
+}
+.directions-detail__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--primary-color);
+  margin-top: 14px;
+  margin-bottom: 25px;
+  max-width: 100px;
+}
+.directions-detail__title span {
+  display: block;
+}
+.directions-detail__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 32px;
+  min-height: 256px;
+  padding: 36px 53px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: 290px 135px;
+  margin-bottom: 24px;
+}
+.directions-detail__icon {
+  width: 183px;
+  height: 31px;
+}
+.directions-detail__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+.directions-detail__text-left p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--black-color);
+}
+.directions-detail__text-left p:not(:last-child) {
+  margin-bottom: 16px;
+}
+.directions-detail__text-right {
+  padding: 24px 24px;
+  background-color: #F7F7F7;
+  border-radius: 32px;
+  margin-bottom: 17px;
+}
+.directions-detail__text-right span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(--black-color);
+  display: block;
+  margin-bottom: 16px;
+}
+.directions-detail__text-right p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black-color);
+}
+
+@media screen and (min-width: 768px) {
+  .directions-detail {
+    padding-bottom: 75px;
+  }
+  .directions-detail .back-page {
+    display: none;
+  }
+  .directions-detail__title {
+    margin-bottom: 33px;
+    max-width: unset;
+  }
+  .directions-detail__title span {
+    display: inline;
+  }
+  .directions-detail__banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    min-height: 256px;
+    padding: 28px 25px;
+    background-position: bottom -5px right -80px;
+    background-size: 432px 260px;
+  }
+  .directions-detail__icon {
+    width: 183px;
+    height: 31px;
+  }
+  .directions-detail__text-left p:not(:last-child) {
+    margin-bottom: 40px;
+  }
+  .directions-detail__text-right {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .directions-detail .back-page {
+    display: block;
+  }
+  .directions-detail__title {
+    font-size: 40px;
+    line-height: 46px;
+    margin-top: 40px;
+    margin-bottom: 29px;
+  }
+  .directions-detail__banner {
+    min-height: 404px;
+    padding: 45px 48px;
+    background-position: bottom -40px right 0px;
+    background-size: 769px 468px;
+    margin-bottom: 73px;
+  }
+  .directions-detail__icon {
+    width: 268px;
+    height: 45px;
+  }
+  .directions-detail__text {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .directions-detail__text-left {
+    max-width: 641px;
+  }
+  .directions-detail__text-right {
+    padding: 40px 51px 40px 40px;
+    max-width: 528px;
+    margin-bottom: 17px;
+  }
+  .directions-detail__text-right span {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+  .directions-detail__text-right p {
+    font-size: 18px;
+    line-height: 150%;
+  }
+}
+/*# sourceMappingURL=good.css.map */

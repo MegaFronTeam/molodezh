@@ -1,0 +1,19 @@
+.anti-corruption {
+  padding-bottom: 70px;
+}
+.anti-corruption .section-title {
+  margin-bottom: 24px;
+}
+.anti-corruption__wrap {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .anti-corruption {
+    padding-bottom: 143px;
+  }
+  .anti-corruption .section-title {
+    margin-bottom: 56px;
+  }
+}
+/*# sourceMappingURL=anti-corruption.css.map */

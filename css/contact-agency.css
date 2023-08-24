@@ -1,0 +1,225 @@
+.contacts-info-text {
+  margin: 55px 0 24px;
+}
+.contacts-info-text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+}
+.contacts .download-document {
+  margin-bottom: 40px;
+}
+.contacts .download-document a {
+  width: 100%;
+}
+.contacts .reception-number {
+  font-size: 29px;
+  line-height: 34px;
+  min-width: 52px;
+  min-height: 52px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+  background: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.contacts .reception-number::after {
+  content: "";
+  display: block;
+  position: absolute;
+  min-width: 52px;
+  min-height: 52px;
+  left: -4px;
+  top: -4px;
+  border: 1px solid #8C64D8;
+  border-radius: 50%;
+  z-index: 10;
+  overflow: hidden;
+}
+.contacts .reception-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+  margin-left: 40px;
+}
+.contacts .reception-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.contacts .reception-item:last-child {
+  margin-bottom: 0;
+}
+.contacts .tabs-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  margin-bottom: 24px;
+  color: #8C64D8;
+}
+.contacts .tabs-subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.contacts .download-wrap:not(:last-child) {
+  margin-bottom: 8px;
+}
+.contacts .letter {
+  max-width: 843px;
+  margin-bottom: 24px;
+}
+.contacts .letter-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #252525;
+}
+.contacts .letter-instruction {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.contacts .letter-list {
+  margin-top: 8px;
+}
+.contacts .letter-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #535353;
+}
+.contacts .extra {
+  margin-top: 40px;
+}
+.contacts .extra .expertise-form-title {
+  margin-bottom: 24px;
+}
+.contacts .extra-text {
+  margin-bottom: 48px;
+}
+.contacts .extra-text p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #252525;
+}
+.contacts .extra-text p span {
+  color: #8C64D8;
+}
+.contacts .tabs-data-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #8C64D8;
+  margin-bottom: 32px;
+}
+.contacts .tabs-data-subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 8px;
+}
+.contacts .tabs-data-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #535353;
+}
+.contacts .tabs-container {
+  max-width: 863px;
+}
+.contacts .tabs-item .contacts__wrap {
+  margin-bottom: 48px;
+}
+.contacts .tabs-item-info {
+  max-width: 915px;
+}
+.contacts .tabs-item-info-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #252525;
+  margin-bottom: 40px;
+}
+.contacts .tabs-item-info-text:last-child {
+  margin-bottom: 0;
+}
+.contacts .tabs-item-info .letter-instruction {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.contacts .tabs-item-info .letter-instruction .letter-item {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@media screen and (max-width: 1349px) {
+  .contacts__main {
+    width: calc(100% - 342px);
+  }
+  .input-box__textarea {
+    width: inherit;
+  }
+  .input-box__textarea-wrap {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .contacts__main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contacts-title {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .contacts-info-text {
+    margin: 16px 0 24px;
+  }
+  .contacts .reception-text {
+    margin-left: 16px;
+  }
+  .contacts .reception-item {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .contacts .tabs-item-info .letter-instruction {
+    font-weight: 500;
+  }
+  .contacts .tabs-item-info-text {
+    margin-bottom: 16px;
+  }
+  .contacts .letter-list {
+    padding-left: 16px;
+  }
+  .contacts .letter-title {
+    font-size: 19px;
+  }
+}
+/*# sourceMappingURL=contact-agency.css.map */

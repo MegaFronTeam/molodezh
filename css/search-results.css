@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+.back-page {
+  margin-bottom: 40px;
+}
+
+.news__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #252525;
+  margin-bottom: 56px;
+}
+
+.search-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search-input-wrap {
+  position: relative;
+}
+
+.search-input-wrap,
+.search__field {
+  margin-right: 16px;
+}
+
+.search-input {
+  font-family: "GTE", sans-serif;
+  font-size: 16px;
+  width: 697px;
+  height: 40px;
+  border: 1px solid #9D7DE0;
+  border-radius: 16px;
+  padding-left: 36px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+svg.icon.search {
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  width: 17px;
+  height: 17px;
+  fill: var(--primary-color);
+}
+
+.search__field {
+  font-family: "GTE", sans-serif;
+  width: 156px;
+  height: 40px;
+  border: 1px solid #9D7DE0;
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.search__field.active {
+  border-radius: 20px 20px 0 0;
+}
+
+.search__field.active .search__list {
+  display: block;
+}
+
+.search__head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 9px 16px;
+}
+
+.search__input {
+  font-family: "GTE", sans-serif;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black-color);
+  cursor: pointer;
+  padding: 0;
+}
+
+.icon.сhevron {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  fill: var(--primary-color);
+}
+
+.search__field.active .сhevron {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.search__list {
+  position: absolute;
+  z-index: 5;
+  top: 39px;
+  left: -1px;
+  width: inherit;
+  background: #fff;
+  padding-left: 0;
+  border: 1px solid #DCDCDC;
+  border-radius: 0px 0px 20px 20px;
+  display: none;
+}
+
+.search__item {
+  list-style: none;
+  padding: 9px 16px;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 300;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+
+.search__item:last-child {
+  border-radius: 0px 0px 20px 20px;
+}
+
+.search__item:hover {
+  background: #ebebeb;
+}
+
+.btn.btn-reset.btn--primary {
+  width: 105px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.search-data {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #535353;
+}
+
+.search-active-amount {
+  color: var(--primary-color);
+}
+
+.search-data {
+  margin: 32px 0 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.search-res {
+  margin-bottom: 16px;
+}
+
+.pagination__wrapper {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.pagination-list__item:first-child a,
+.pagination-list__item:last-child a {
+  background-color: unset;
+  background-image: unset;
+  background-repeat: unset;
+  background-size: unset;
+  background-position: unset;
+  -webkit-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.pagination-list__item._left a {
+  background-color: var(--primary-color);
+  background-image: url("../assets/img/globa/arrow-pagination.svg");
+  background-repeat: no-repeat;
+  background-size: 6px 12px;
+  background-position: center center;
+}
+
+.pagination-list__item._right a {
+  background-color: var(--primary-color);
+  background-image: url("../assets/img/globa/arrow-pagination.svg");
+  background-repeat: no-repeat;
+  background-size: 6px 12px;
+  background-position: center center;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pagination-list__start {
+  width: 89px;
+  height: 40px;
+}
+
+.pagination-list__start:first-child {
+  margin-right: 10px;
+}
+
+.pagination-list__start:last-child {
+  margin-left: 10px;
+}
+
+.search-item__link {
+  display: block;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #8C64D8;
+  margin-bottom: 8px;
+}
+
+.search-item__data {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252525;
+  margin-bottom: 8px;
+}
+
+.search-item-wrap {
+  border-top: 1px solid #DCDCDC;
+}
+
+.search-item {
+  padding: 24px 0;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.search-data:last-child {
+  margin: 56px 0 0;
+}
+
+.search-results {
+  padding-bottom: 134px;
+}
+
+@media screen and (max-width: 1023px) {
+  .news__title {
+    margin-bottom: 36px;
+  }
+
+  .search-input-wrap {
+    margin-bottom: 16px;
+  }
+
+  .search-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .search-item__link {
+    font-size: 22px;
+  }
+
+  .search-item .breadcrumbs {
+    overflow-y: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .back-page {
+    margin-bottom: 22px;
+  }
+
+  .news__title {
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 22px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-input,
+  .search__item,
+  .search__input,
+  .btn.btn-reset.btn--primary {
+    font-size: 14px;
+  }
+
+  .search-data .pagination__start {
+    display: none;
+  }
+
+  .pagination-list__start {
+    display: none;
+  }
+
+  .search-data .pagination-list__item:nth-child(n+3) {
+    margin-left: 10px;
+  }
+
+  .search-data {
+    margin: 28px 0;
+  }
+
+  .search-item__link {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .search-item {
+    padding: 12px 0;
+  }
+
+  .search-results {
+    padding-bottom: 88px;
+  }
+}
+
+/*# sourceMappingURL=search-results.css.map */

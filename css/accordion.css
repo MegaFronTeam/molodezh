@@ -1,0 +1,260 @@
+.accordion-wrap {
+  margin-bottom: 20px;
+}
+
+.accordion__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+.accordion__head:hover .accordion__btn {
+  background-color: #ddd;
+}
+.accordion__head.active {
+  background-color: #ddd;
+}
+.accordion__head.active .accordion__btn svg {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.accordion__head.active + .accordion__content {
+  max-height: 1000px;
+}
+.accordion__head .accordion__title {
+  margin-bottom: 0;
+  border: none;
+}
+.accordion__head .accordion__title:hover {
+  background-color: #fff;
+}
+.accordion__btn {
+  width: 5rem;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  border: 1px solid #000;
+}
+.accordion__title {
+  position: relative;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  border: 1px solid #000;
+}
+.accordion__title--more:after {
+  position: absolute;
+  content: "+";
+  right: 20px;
+}
+.accordion__title--more.active:after {
+  content: "-";
+}
+.accordion__title:hover {
+  background-color: #ddd;
+}
+.accordion__title.active {
+  background-color: #ddd;
+}
+.accordion__title.active + .accordion__content {
+  max-height: 1000px;
+}
+.accordion__content {
+  max-height: 100%;
+  overflow: visible;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 4px #000;
+  box-shadow: 0px 0px 4px #000;
+  width: calc(100% - 0px);
+  margin: 0 auto;
+}
+.accordion__descr {
+  padding: 10px 20px;
+}
+
+.accordion__control .control.accordion__title {
+  border: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 0;
+  position: relative;
+  margin-bottom: 8px;
+}
+.accordion__control .control.accordion__title span {
+  display: block;
+  max-width: 200px;
+}
+.accordion__control .control.accordion__title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+  background-image: url("../assets/img/globa/chevrone-nav.svg");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: var(--base-transition);
+  -o-transition: var(--base-transition);
+  transition: var(--base-transition);
+}
+.accordion__control .control.accordion__title:hover {
+  background-color: transparent;
+}
+.accordion__control .control.accordion__title.active {
+  background-color: transparent;
+}
+.accordion__control .control.accordion__title.active::before {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+}
+.accordion__control .control.accordion__content {
+  -webkit-box-shadow: 0px 0px 0px transparent;
+  box-shadow: 0px 0px 0px transparent;
+}
+.accordion__control .control.accordion__descr {
+  padding: 0;
+}
+
+.accordion__mini .mini.accordion__title {
+  padding: 20px 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #535353;
+  position: relative;
+  border: none;
+  border-top: 1px solid #DCDCDC;
+}
+.accordion__mini .mini.accordion__title--last {
+  border-bottom: 1px solid #DCDCDC;
+}
+.accordion__mini .mini.accordion__title:hover {
+  background-color: transparent;
+}
+.accordion__mini .mini.accordion__title.active {
+  background-color: transparent;
+}
+.accordion__mini .mini.accordion__title::before {
+  background: var(--primary-color);
+  content: "";
+  display: block;
+  height: 2px;
+  right: 0px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  width: 18px;
+}
+.accordion__mini .mini.accordion__title::after {
+  background: var(--primary-color);
+  content: "";
+  display: block;
+  height: 2px;
+  right: 0px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) rotate(-90deg);
+  -ms-transform: translateX(-50%) rotate(-90deg);
+  transform: translateX(-50%) rotate(-90deg);
+  -webkit-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  width: 18px;
+}
+.accordion__mini .mini.accordion__title span {
+  display: block;
+  max-width: 224px;
+}
+.accordion__mini .mini.accordion__title.active::after {
+  -webkit-transform: rotate(0);
+  -ms-transform: rotate(0) translateX(-9px);
+  transform: rotate(0) translateX(-9px);
+}
+.accordion__mini .mini.accordion__descr {
+  padding-bottom: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: scroll;
+  margin: 0 -20px;
+}
+.accordion__mini .mini.accordion__descr .management-item:first-child {
+  margin-left: 0;
+}
+.accordion__mini .mini.accordion__descr .management-item:last-child {
+  margin-right: 0;
+}
+.accordion__mini .mini.accordion__content {
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion__control .control.accordion__title {
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+  .accordion__control .control.accordion__title span {
+    max-width: 100%;
+  }
+  .accordion__mini .mini.accordion__title {
+    padding: 22px 0;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 0;
+  }
+  .accordion__mini .mini.accordion__title--last {
+    border-bottom: 1px solid #DCDCDC;
+  }
+  .accordion__mini .mini.accordion__title span {
+    display: block;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .accordion__control .control.accordion__title {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .accordion__mini .mini.accordion__title--last {
+    border-bottom: 1px solid #DCDCDC;
+  }
+  .accordion__mini .mini.accordion__content {
+    padding: 0 40px;
+  }
+  .accordion__mini .mini.accordion__descr {
+    padding-bottom: 24px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 32px;
+    overflow: visible;
+    margin: 0 -40px;
+  }
+}
+/*# sourceMappingURL=accordion.css.map */

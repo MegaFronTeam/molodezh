@@ -1,0 +1,209 @@
+.history {
+  padding-bottom: 30px;
+}
+.history .back-page {
+  margin-bottom: 40px;
+}
+.history__wrap {
+  max-width: 865px;
+  padding-bottom: 56px;
+  border-bottom: 1px solid #DCDCDC;
+}
+.history__title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  color: var(--black-color);
+  margin-bottom: 40px;
+}
+.history__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 80px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.history__info--bottom {
+  margin-bottom: 0;
+}
+.history__date {
+  color: var(--light-color);
+  background-color: var(--primary-color);
+}
+.history__time {
+  background-color: #DAEF14;
+  color: var(--primary-color);
+}
+.history__share svg {
+  pointer-events: none;
+}
+.history__location {
+  background-color: #F7F7F7;
+  color: var(--primary-color);
+}
+.history__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  gap: 20px;
+}
+.history__img {
+  width: 200px;
+  height: 200px;
+  background: var(--primary-color);
+  border-radius: 32px;
+  margin-left: 33px;
+}
+.history__img img {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-32px, -32px);
+  -ms-transform: translate(-32px, -32px);
+  transform: translate(-32px, -32px);
+  border-radius: 32px;
+  overflow: hidden;
+}
+.history__user-name {
+  margin-bottom: 20px;
+}
+.history__user-name span {
+  display: block;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: var(--black-color);
+}
+.history__user-info span {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--black-color);
+}
+.history__descr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--black-color);
+  margin-bottom: 40px;
+}
+.history__main {
+  margin-bottom: 48px;
+}
+.history__group:not(:last-child) {
+  margin-bottom: 24px;
+}
+.history__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: var(--primary-color);
+  margin-bottom: 18px;
+}
+.history__text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black-color);
+}
+.history__text:not(:last-child) {
+  margin-bottom: 40px;
+}
+.history__bottom {
+  padding-top: 18px;
+  max-width: 865px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.history__bottom .btn--border {
+  padding: 16px 32px;
+  margin-bottom: 17px;
+}
+.history__short {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+  color: var(--gray-color);
+  opacity: 0.5;
+  max-width: 267px;
+}
+
+@media screen and (min-width: 1200px) {
+  .history {
+    padding-bottom: 92px;
+  }
+  .history .back-page {
+    display: block;
+  }
+  .history__title {
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 56px;
+  }
+  .history__info {
+    margin-bottom: 108px;
+    gap: 0;
+  }
+  .history__info--bottom {
+    margin-bottom: 0;
+  }
+  .history__time {
+    margin-left: 4px;
+  }
+  .history__share {
+    margin-left: 48px;
+  }
+  .history__location {
+    margin-left: 48px;
+  }
+  .history__wrapper {
+    margin-bottom: 48px;
+    gap: 0;
+  }
+  .history__user {
+    margin-left: 48px;
+    margin-top: -35px;
+  }
+  .history__user-name {
+    margin-bottom: 50px;
+  }
+  .history__descr {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 48px;
+  }
+  .history__main {
+    margin-bottom: 48px;
+  }
+  .history__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 18px;
+  }
+  .history__text {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .history__text:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+/*# sourceMappingURL=history.css.map */

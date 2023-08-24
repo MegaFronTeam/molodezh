@@ -1,0 +1,373 @@
+.about-agency {
+  padding-bottom: 20px;
+  position: relative;
+}
+.about-agency::before {
+  content: "";
+  position: absolute;
+  top: 8%;
+  right: -22%;
+  z-index: 1;
+  width: 957px;
+  height: 243px;
+  background-image: url("../assets/img/about-agency/about-agency-decore.png");
+  background-repeat: no-repeat;
+  display: none;
+}
+.about-agency .breadcrumbs {
+  margin-bottom: 22px;
+}
+.about-agency__wrapper {
+  margin-bottom: 64px;
+}
+.about-agency__about {
+  width: 100%;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(83, 83, 83, 0.5);
+}
+.about-agency__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--primary-color);
+  margin-bottom: 32px;
+}
+.about-agency__text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--black-color);
+}
+.about-agency__text:not(:last-child) {
+  margin-bottom: 40px;
+}
+.about-agency__work {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.about-agency__work-list li:not(:last-child) {
+  margin-bottom: 24px;
+}
+.about-agency__work-icon {
+  width: 65px;
+  height: 62px;
+  border-radius: 32px;
+  background-image: url("../assets/img/about-agency/about-work-agency-icon-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.about-agency__work-icon img {
+  width: 32px;
+  height: 30px;
+}
+.about-agency__work-text {
+  font-weight: 400;
+  color: var(--gray-color);
+  font-size: 20px;
+  line-height: 23px;
+}
+.about-agency__subtitle {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+.about-agency__doit {
+  margin-bottom: 76px;
+}
+.about-agency__doit-title {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+.about-agency__doit-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--black-color);
+  margin-bottom: 32px;
+}
+.about-agency__doit-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-agency__doit-list li:not(:last-child) {
+  margin-bottom: 24px;
+}
+.about-agency__doit-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+.about-agency__doit-icon img {
+  width: 100%;
+  height: 100%;
+}
+.about-agency__doit-descr {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--gray-color);
+}
+.about-agency__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 32px;
+  background-color: var(--secondary-color);
+  padding: 24px 24px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+}
+.about-agency__banner-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.about-agency__banner img {
+  display: none;
+}
+.about-agency .questions {
+  padding: 0;
+}
+.about-agency .questions__item {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .about-agency {
+    padding-bottom: 20px;
+  }
+  .about-agency .breadcrumbs {
+    margin-bottom: 14px;
+  }
+  .about-agency__work-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .about-agency__work-list li:not(:last-child) {
+    margin-bottom: 48px;
+  }
+  .about-agency__work-icon {
+    margin-bottom: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  .about-agency__work-text {
+    margin-left: 40px;
+  }
+  .about-agency__doit-list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 24px;
+  }
+  .about-agency__doit-list li {
+    grid-column: 6 span;
+    display: block;
+    margin-bottom: 0px;
+  }
+  .about-agency__doit-descr {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--gray-color);
+    max-width: 302px;
+    text-align: left;
+  }
+  .about-agency__banner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    text-align: start;
+  }
+  .about-agency__banner-text {
+    max-width: 358px;
+    margin-bottom: 0;
+  }
+  .about-agency__banner img {
+    width: 177px;
+    height: 175px;
+    max-width: none;
+    position: absolute;
+    z-index: 2;
+    bottom: -17px;
+    right: 177px;
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about-agency {
+    padding-bottom: 167px;
+    position: relative;
+  }
+  .about-agency .breadcrumbs {
+    margin-bottom: 62px;
+  }
+  .about-agency__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 140px;
+  }
+  .about-agency__title {
+    font-size: 60px;
+    line-height: 100%;
+    margin-bottom: 56px;
+  }
+  .about-agency__text {
+    max-width: 568px;
+  }
+  .about-agency__subtitle {
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 46px;
+  }
+  .about-agency__work {
+    padding-top: 60px;
+    padding-bottom: 95px;
+  }
+  .about-agency__work-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .about-agency__work-list li:not(:last-child) {
+    margin-bottom: 48px;
+  }
+  .about-agency__work-icon {
+    width: 112px;
+    height: 112px;
+    border-radius: 32px;
+    background-image: url("../assets/img/about-agency/about-work-agency-icon.png");
+    background-repeat: no-repeat;
+    background-size: 104px 104px;
+  }
+  .about-agency__work-icon img {
+    width: 56px;
+    height: 56px;
+  }
+  .about-agency__work-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    max-width: 666px;
+  }
+  .about-agency__doit {
+    margin-bottom: 76px;
+  }
+  .about-agency__doit-title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .about-agency__doit-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 50px;
+  }
+  .about-agency__doit-list {
+    row-gap: 70px;
+  }
+  .about-agency__doit-list li {
+    grid-column: 4 span;
+  }
+  .about-agency__doit-descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    max-width: 202px;
+  }
+  .about-agency__banner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 56px 56px;
+    text-align: start;
+  }
+  .about-agency__banner-text {
+    max-width: 358px;
+    margin-bottom: 0;
+  }
+  .about-agency__banner img {
+    width: 234px;
+    height: 225px;
+    max-width: none;
+    position: absolute;
+    z-index: 2;
+    bottom: -17px;
+    right: 243px;
+    display: block;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .about-agency__banner-text {
+    max-width: 458px;
+    margin-bottom: 0;
+  }
+  .about-agency__banner img {
+    width: 216px;
+    height: 211px;
+    max-width: none;
+    position: absolute;
+    z-index: 2;
+    bottom: -16px;
+    right: 225px;
+    display: block;
+  }
+}
+@media screen and (min-width: 1700px) {
+  .about-agency::before {
+    display: block;
+  }
+}
+/*# sourceMappingURL=about-agency.css.map */

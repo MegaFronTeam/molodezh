@@ -1,0 +1,20 @@
+.civil-service {
+  padding-bottom: 70px;
+}
+.civil-service .section-title {
+  margin-bottom: 24px;
+}
+.civil-service__wrap {
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .civil-service {
+    padding-bottom: 143px;
+  }
+  .civil-service .section-title {
+    margin-bottom: 56px;
+    max-width: 600px;
+  }
+}
+/*# sourceMappingURL=civil-service.css.map */
