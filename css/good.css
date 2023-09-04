@@ -271,6 +271,7 @@
 }
 
 .directions-detail__img-wrap {
+  cursor: pointer;
   width: 100%;
 }
 
