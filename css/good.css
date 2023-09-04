@@ -455,8 +455,13 @@
 }
 
 .directions-detail__vk {
+  transition: all .36s ease-in;
   width: 100%;
   max-width: 29px;
+}
+
+.directions-detail__vk:hover {
+  opacity: 0.8;
 }
 
 .directions-detail__articles__col {
