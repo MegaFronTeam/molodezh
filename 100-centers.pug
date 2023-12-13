@@ -1,0 +1,489 @@
+doctype html
+html.page(lang='ru')
+	head
+		meta(charset='utf-8')
+		title Образовательные центры
+		meta(name='description' content='Нижегородская ярмарка')
+		meta(name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1')
+		link(rel='icon' href='assets/img/favicon.png')
+		meta(property='og:image' content='images/distpromo_img')
+		link(rel='stylesheet' type='text/css' href='assets/plugins/swiper/swiper-bundle.min.css')
+		link(rel='stylesheet' href='css/global.css')
+		link(rel='stylesheet' href='css/accordion.css')
+		link(rel='stylesheet' href='css/anti-corruption.css')
+		link(rel='stylesheet' href='css/centers-page.css')
+	body.page__body
+		.site-container
+			header.header
+				.container
+					.header__wrapper
+						a.logo.logo-main.header__logo(href='index.html')
+							svg
+								use(href='assets/svg/sprite-version2.svg#logo')
+						nav.nav.nav-main
+							.nav__burger
+								button.burger(aria-label='Открыть меню' aria-expanded='false')
+									span.burger__line
+							.header-mobile
+								.header-mobile-menu-inner
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Агентство
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Деятельность
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Пресс-служба
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Документы
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Обратная связь
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+							ul.nav__list.list-reset
+								li.nav__item
+									a.nav__link(href='#')
+										| Агентство
+									.nav__submenu
+										ul.drop-down.list-reset
+											li.drop-down__item
+												a.drop-down__link(href='about-agency.html') Об агенстве
+											li.drop-down__item
+												a.drop-down__link(href='structure.html') Струтктура
+											li.drop-down__item
+												a.drop-down__link(href='public-council.html') Общественный совет
+											li.drop-down__item
+												a.drop-down__link(href='anti-corruption.html') Противодействие коррупции
+											li.drop-down__item
+												a.drop-down__link(href='#') Противодействие терроризму
+											li.drop-down__item
+												a.drop-down__link(href='civil-service.html') Государственная гражданская служба
+											li.drop-down__item
+												a.drop-down__link(href='open-agency.html') Открытое агентство
+											li.drop-down__item
+												a.drop-down__link(href='#') Проекты
+											li.drop-down__item
+												a.drop-down__link(href='#') Деятельность
+								li.nav__item
+									a.nav__link(href='#')
+										| Деятельность
+									.nav__submenu
+										ul.drop-down.list-reset
+											li.drop-down__item
+												a.drop-down__link(href='directions.html') Тематические треки
+											li.drop-down__item
+												a.drop-down__link(href='directions-events.html') Росмолодежь.События
+											li.drop-down__item
+												a.drop-down__link(href='grants.html') Росмолодежь.Гранты
+											li.drop-down__item
+												a.drop-down__link(href='#') Статистика
+								li.nav__item
+									a.nav__link(href='#')
+										| Пресс-служба
+									.nav__submenu
+										ul.drop-down.list-reset
+											li.drop-down__item
+												a.drop-down__link(href='news-catalog') Новости
+											li.drop-down__item
+												a.drop-down__link(href='press-kit.html') Пресс-кит
+											li.drop-down__item
+												a.drop-down__link(href='contacts.html') Контакты
+								li.nav__item
+									a.nav__link(href='#')
+										| Документы
+								li.nav__item
+									a.nav__link(href='#')
+										| Обратная связь
+						ul.settings.list-reset
+							li.settings__item
+								a.eng-ver(href='javascript:void(0);')
+									svg.icon.main.icon-eng-v
+										use(href='assets/svg/sprite-version2.svg#eng-v')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.main.icon-read
+										use(href='assets/svg/sprite-version2.svg#read')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.main.icon-search
+										use(href='assets/svg/sprite-version2.svg#search')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.main.icon-lk
+										use(href='assets/svg/sprite-version2.svg#lk')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.main.icon-settings
+										use(href='assets/svg/sprite-version2.svg#settings')
+				ul.socials.socials-main.list-reset
+					li.socials__item
+						a.socials__link(href='#')
+							svg
+								use(xlink:href='./assets/svg/sprite.svg#vk')
+					li.socials__item
+						a.socials__link(href='#')
+							svg
+								use(xlink:href='./assets/svg/sprite.svg#tg')
+					li.socials__item
+						a.socials__link(href='#')
+							svg
+								use(xlink:href='./assets/svg/sprite.svg#social3')
+					li.socials__item
+						a.socials__link(href='#')
+							svg
+								use(xlink:href='./assets/svg/sprite.svg#ok')
+					li.socials__item
+						a.socials__link(href='#')
+							svg
+								use(xlink:href='./assets/svg/sprite.svg#social5')
+					li.socials__item
+						a.socials__link(href='#')
+							svg
+								use(xlink:href='./assets/svg/sprite.svg#tiktok')
+			main.main
+				.breadcrumbs-wrapper
+					.container
+						ul.breadcrumbs.list-reset
+							li.breadcrumbs__item
+								a.breadcrumbs__link(href='#') Главная
+							li.breadcrumbs__item
+								a.breadcrumbs__link(href='#') Агенство
+							li.breadcrumbs__item
+								a.breadcrumbs__link.active(href='#') Об агенстве
+				section
+					.container
+						.section-wrapper
+							.nav-page
+								.nav-page__item
+									button.btn-reset.nav-page__button
+										img(src='assets/img/globa/chevrone-nav.svg' alt='')
+										|                   Агентство
+									ul.list-reset
+										li
+											a(href='#')
+												| Об агенстве
+										li
+											a(href='#')
+												| Струтктура
+										li
+											a(href='#')
+												| Общественный совет
+										li
+											a(href='#')
+												| Противодействие коррупции
+										li
+											a(href='#')
+												| Противодействие терроризму
+										li
+											a(href='#')
+												| Государственная гражданская служба
+										li
+											a(href='#')
+												| Открытое агенство
+								.nav-page__item
+									button.btn-reset.nav-page__button
+										img(src='assets/img/globa/chevrone-nav.svg' alt='')
+										|                   Деятельность
+									ul.list-reset
+										li
+											a(href='#')
+												| Об агенстве
+										li
+											a(href='#')
+												| Струтктура
+										li
+											a(href='#')
+												| Общественный совет
+										li
+											a(href='#')
+												| Противодействие коррупции
+										li
+											a(href='#')
+												| Противодействие терроризму
+										li
+											a(href='#')
+												| Государственная гражданская служба
+										li
+											a(href='#')
+												| Открытое агенство
+								.nav-page__item
+									button.btn-reset.nav-page__button
+										img(src='assets/img/globa/chevrone-nav.svg' alt='')
+										|                   Пресс-служба
+									ul.list-reset
+										li
+											a(href='#')
+												| Об агенстве
+										li
+											a(href='#')
+												| Струтктура
+										li
+											a(href='#')
+												| Общественный совет
+										li
+											a(href='#')
+												| Противодействие коррупции
+										li
+											a(href='#')
+												| Противодействие терроризму
+										li
+											a(href='#')
+												| Государственная гражданская служба
+										li
+											a(href='#')
+												| Открытое агенство
+							.anti-corruption__wrap
+								h1.section-title Образовательные центры
+								mixin item(t,p)
+									.center-item 
+										.col
+											.center-item__title= t
+											p= p 
+										.center-item__img-wrap
+											img(src=`assets/img/logo-center.png`, alt="")
+								+item(`Мастерская управления «Сенеж»`,`Мастерская управления «Сенеж» – образовательный центр, на базе которого проводятся обучающие программы и мероприятия для молодёжи: лидеров общественных организаций, социальных активистов, волонтёров, молодых профессионалов (юристов, экономистов, журналистов, социологов, преподавателей, ученых). `)
+								+item(`Центр знаний «Машук»`,`Мастерская управления «Сенеж» – образовательный центр, на базе которого проводятся обучающие программы и мероприятия для молодёжи: лидеров общественных организаций, социальных активистов, волонтёров, молодых профессионалов (юристов, экономистов, журналистов, социологов, преподавателей, ученых). `)
+								+item(`Академия «Меганом»`,`Мастерская управления «Сенеж» – образовательный центр, на базе которого проводятся обучающие программы и мероприятия для молодёжи: лидеров общественных организаций, социальных активистов, волонтёров, молодых профессионалов (юристов, экономистов, журналистов, социологов, преподавателей, ученых). `)
+				section.questions
+					.container
+						h2.visually-hidden Вопросы?
+						.questions__item
+							.questions__left
+								h2.title.questions__title(data-title='Есть вопросы?') Есть вопросы?
+								span.questions__descr
+									| Ты можешь задать их нашим
+									| специалистам через форму
+									| обратной связи
+								button.btn.btn-reset.btn--primary Задать вопрос
+							.questions__right
+								img(src='assets/img/index/questions.png' alt='')
+						.questions__banner
+							a(href='#')
+								img(src='assets/img/index/gosuslugi.jpg' alt='')
+
+			footer.footer
+				.container
+					.footer__top
+						.footer__top-item
+							a.logo.footer__logo(href='inde.html')
+								img(src='assets/img/globa/logo-footer.svg' alt='')
+							ul.socials.list-reset.footer__socials
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#vk')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#tg')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#social3')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#ok')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#social5')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#tiktok')
+						.footer__top-item
+							ul.footer__nav.footer__nav--tablet.list-reset
+								li.footer__nav-item
+									a(href='#')
+										| Агентство
+								li.footer__nav-item
+									a(href='#')
+										| Деятельность
+								li.footer__nav-item
+									a(href='#')
+										| Пресс-служба
+							ul.footer__nav.list-reset
+								li.footer__nav-item
+									a(href='#')
+										| Агентство
+								li.footer__nav-item
+									a(href='#')
+										| Деятельность
+								li.footer__nav-item
+									a(href='#')
+										| Пресс-служба
+								li.footer__nav-item
+									a(href='#')
+										| Документы
+								li.footer__nav-item
+									a(href='#')
+										| Новости
+								li.footer__nav-item
+									a(href='#')
+										| Опросы
+								li.footer__nav-item
+									a(href='#')
+										| Обратная связь
+						.footer__top-item
+							ul.footer__nav.list-reset
+								li.footer__nav-item
+									a(href='#')
+										| Обратиться в агенство
+								li.footer__nav-item
+									a(href='#')
+										| Открытое агенство
+								li.footer__nav-item
+									a(href='#')
+										| Противодействие коррупции
+								li.footer__nav-item
+									a(href='#')
+										| Противодействие терроризму
+								li.footer__nav-item
+									a(href='#')
+										| Государственная услуга
+						.footer__top-item
+							.footer__info
+								.footer__address
+									span.footer__address-top Адрес
+									span.footer__address-bottom
+										| 109028, Москва, Большой Трехсвятительский переулок,
+										| д. 2/1, стр. 2 Китай-город
+								.footer__time
+									.footer__time-wrap
+										span.footer__time-top Понедельник — Четверг
+										span.footer__time-bottom 9:00-18:00
+									.footer__time-wrap
+										span.footer__time-top Пятница
+										span.footer__time-bottom 9:00-16:45
+								.footer__mail
+									span.footer__mail-top Электронная почта
+									a(href='mailto:Op@fadm.gov.ru') Op@fadm.gov.ru
+								.footer__tablet
+									ul.socials.list-reset.footer__socials
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#vk')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#tg')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#social3')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#ok')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#social5')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#tiktok')
+								a.footer__phone(href='tel:74956688008') +7 495 668-80-08
+					.footer__bottom
+						a.footer__copyright(href='#')
+							| © 2008-2020 Федеральное агентство по делам молодежи
+							| (Росмолодёжь)
+						ul.footer__bottom-nav.list-reset
+							li
+								a(href='#') Карта сайта
+							li
+								a(href='#') Все контакты
+							li
+								a(href='#') Технические сведения
+							li
+								a(href='#') Правовая информация
+		script(src='assets/plugins/accordion/accordion.js')
+		script(src='js/main.js')

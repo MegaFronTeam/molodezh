@@ -7,4 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
 			item.nextElementSibling.classList.toggle("active");
 		})
 	}
+
+	new Swiper(".gal-slider--js", {
+    slidesPerView: 'auto',
+    spaceBetween: 32,
+    speed: 300,
+    loop: false,
+		pagination: {
+			el: ".slider .swiper-pagination",
+			type: "bullets"
+		}
+  })
 })

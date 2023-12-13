@@ -1,0 +1,729 @@
+doctype html
+html.page(lang='ru')
+	head
+		meta(charset='utf-8')
+		title Мастерская управления «Сенеж»
+		meta(name='description' content='Нижегородская ярмарка')
+		meta(name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1')
+		link(rel='icon' href='assets/img/favicon.png')
+		meta(property='og:image' content='images/distpromo_img')
+		link(rel='stylesheet' type='text/css' href='assets/plugins/swiper/swiper-bundle.min.css')
+		link(rel='stylesheet' href='css/global.css')
+		link(rel='stylesheet' href='css/index.css')
+		link(rel='stylesheet' href='css/modal-filter.css')
+		link(rel='stylesheet' href='css/centers-page.css')
+	body.page__body
+		.site-container
+			header.header
+				.container
+					.header__wrapper
+						a.logo.logo-index.header__logo(href='index.html')
+							svg
+								use(href='assets/svg/sprite-version2.svg#logo')
+						nav.nav.nav-index
+							.nav__burger
+								button.burger(aria-label='Открыть меню' aria-expanded='false')
+									span.burger__line
+							.header-mobile
+								.header-mobile-menu-inner
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Агентство
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Деятельность
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Пресс-служба
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Документы
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+									.header-mobile-item
+										.header-mobile-headline
+											p.header-mobile-title Обратная связь
+											svg.icon(class='сhevron-up')
+												use(href='./assets/svg/sprite-version2.svg#сhevron-up')
+										ul.header-mobile-list
+											li.header-mobile-point
+												a(href='javascript:void(0);') Об агенстве
+											li.header-mobile-point
+												a(href='javascript:void(0);') Структура
+											li.header-mobile-point
+												a(href='javascript:void(0);') Общественный совет
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие коррупции
+											li.header-mobile-point
+												a(href='javascript:void(0);') Противодействие терроризму
+											li.header-mobile-point
+												a(href='javascript:void(0);') Государственная гражданская служба
+											li.header-mobile-point
+												a(href='javascript:void(0);') Открытое агенство
+							ul.nav__list.list-reset
+								li.nav__item.js-menu
+									a.nav__link(href='javascript:void(0);')
+										| Агентство
+									.nav__submenu
+										ul.drop-down.list-reset
+											li.drop-down__item
+												a.drop-down__link(href='about-agency.html') Об агенстве
+											li.drop-down__item
+												a.drop-down__link(href='structure.html') Струтктура
+											li.drop-down__item
+												a.drop-down__link(href='public-council.html') Общественный совет
+											li.drop-down__item
+												a.drop-down__link(href='anti-corruption.html') Противодействие коррупции
+											li.drop-down__item
+												a.drop-down__link(href='#') Противодействие терроризму
+											li.drop-down__item
+												a.drop-down__link(href='civil-service.html') Государственная гражданская служба
+											li.drop-down__item
+												a.drop-down__link(href='open-agency.html') Открытое агентство
+											li.drop-down__item
+												a.drop-down__link(href='#') Проекты
+											li.drop-down__item
+												a.drop-down__link(href='#') Деятельность
+								li.nav__item.js-menu
+									a.nav__link(href='javascript:void(0);')
+										| Деятельность
+									.nav__submenu
+										ul.drop-down.list-reset
+											li.drop-down__item
+												a.drop-down__link(href='directions.html') Тематические треки
+											li.drop-down__item
+												a.drop-down__link(href='directions-events.html') Росмолодежь.События
+											li.drop-down__item
+												a.drop-down__link(href='grants.html') Росмолодежь.Гранты
+											li.drop-down__item
+												a.drop-down__link(href='#') Статистика
+								li.nav__item.js-menu
+									a.nav__link(href='javascript:void(0);')
+										| Пресс-служба
+									.nav__submenu
+										ul.drop-down.list-reset
+											li.drop-down__item
+												a.drop-down__link(href='news-catalog') Новости
+											li.drop-down__item
+												a.drop-down__link(href='press-kit.html') Пресс-кит
+											li.drop-down__item
+												a.drop-down__link(href='contacts.html') Контакты
+								li.nav__item
+									a.nav__link(href='javascript:void(0);')
+										| Документы
+								li.nav__item
+									a.nav__link(href='javascript:void(0);')
+										| Обратная связь
+						ul.settings.list-reset
+							li.settings__item
+								a.eng-ver(href='javascript:void(0);')
+									svg.icon.index.icon-eng-v
+										use(href='assets/svg/sprite-version2.svg#eng-v')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.index.icon-read
+										use(href='assets/svg/sprite-version2.svg#read')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.index.icon-search
+										use(href='assets/svg/sprite-version2.svg#search')
+							li.settings__item
+								a(href='javascript:void(0);')
+									svg.icon.index.icon-lk
+										use(href='assets/svg/sprite-version2.svg#lk')
+							li.settings__item.js-filter-settings
+								a(href='javascript:void(0);')
+									svg.icon.index.icon-settings
+										use(href='assets/svg/sprite-version2.svg#settings')
+			// Фильтр по регионам и направлениям (шестеренка)
+			.right-menu-wrap.js-block-modal
+				.right-menu
+					p.right-menu__title Фильтры
+					.right-menu__mob-title
+						| Фильтры
+						.right-menu__close.js-close
+							svg.icon.close(width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg')
+								path(d='M1 1L17 17' stroke='black')
+								path(d='M17 1L1 17' stroke='black')
+					.right-menu__inner
+						.right-menu__block-wrap.show.js-track
+							.right-menu__block
+								.right-menu__subtitle По регионам
+								button.right-menu__active-region.js-btn-region
+									svg.icon-geo(width='16' height='17' viewBox='0 0 16 17' fill='none' xmlns='http://www.w3.org/2000/svg')
+										g(clip-path='url(#clip0_2449_12897)')
+											path(fill-rule='evenodd' clip-rule='evenodd' d='M7.99976 10.5002C8.33593 10.5008 8.6676 10.4229 8.96843 10.2729L10.1351 9.68957C10.4962 9.51073 10.7999 9.23419 11.0117 8.89137C11.2234 8.54854 11.3348 8.15319 11.3331 7.75024V6.58357C11.3344 6.18063 11.2226 5.78542 11.0105 5.44283C10.7983 5.10025 10.4944 4.82403 10.1331 4.64557L8.96643 4.06224C8.66544 3.91261 8.33389 3.83474 7.99776 3.83474C7.66163 3.83474 7.33008 3.91261 7.02909 4.06224L5.86643 4.64557C5.50516 4.82403 5.20119 5.10025 4.98907 5.44283C4.77694 5.78542 4.66516 6.18063 4.66643 6.58357V7.75024C4.66516 8.15318 4.77694 8.54839 4.98907 8.89098C5.20119 9.23356 5.50516 9.50978 5.86643 9.68824L7.03309 10.2716C7.33321 10.4218 7.66416 10.5001 7.99976 10.5002ZM6.66643 7.75024V6.61824L7.55109 7.06024C7.69033 7.13014 7.84397 7.16654 7.99976 7.16654C8.15556 7.16654 8.3092 7.13014 8.44843 7.06024L9.33309 6.61891V7.75224C9.33325 7.78332 9.32464 7.81382 9.30825 7.84024C9.29186 7.86665 9.26835 7.88791 9.24043 7.90157L8.07376 8.4849C8.05079 8.4964 8.02545 8.50239 7.99976 8.50239C7.97407 8.50239 7.94873 8.4964 7.92576 8.4849L6.75909 7.90157C6.73086 7.88776 6.70715 7.86619 6.69074 7.83939C6.67433 7.81259 6.66589 7.78166 6.66643 7.75024ZM9.83976 14.5002C10.0563 14.3689 10.2575 14.214 10.4398 14.0382L12.7144 11.9256C13.963 10.6666 14.6635 8.96532 14.6635 7.19224C14.6635 5.41915 13.963 3.71788 12.7144 2.4589C12.0965 1.83711 11.3617 1.34365 10.5524 1.00691C9.74301 0.67018 8.87504 0.496826 7.99843 0.496826C7.12181 0.496826 6.25385 0.67018 5.44449 1.00691C4.63513 1.34365 3.90035 1.83711 3.28243 2.4589C2.03114 3.72395 1.33181 5.43309 1.33744 7.21243C1.34306 8.99177 2.05317 10.6965 3.31243 11.9536L5.53776 14.0202C5.72829 14.2037 5.93923 14.3648 6.16643 14.5002L7.99976 16.5002L9.83976 14.5002ZM4.70176 10.5149C3.8261 9.63168 3.3348 8.4383 3.3348 7.19457C3.3348 5.95084 3.8261 4.75746 4.70176 3.87424C5.1336 3.43889 5.64735 3.09336 6.2134 2.85755C6.77944 2.62175 7.38657 2.50034 7.99976 2.50034C8.61296 2.50034 9.22008 2.62175 9.78613 2.85755C10.3522 3.09336 10.8659 3.43889 11.2978 3.87424C12.1705 4.75156 12.6628 5.9372 12.6682 7.17469C12.6736 8.41219 12.1916 9.60205 11.3264 10.4869L9.05976 12.5916C8.77081 12.8681 8.38527 13.0207 7.98536 13.017C7.58545 13.0132 7.20283 12.8534 6.91909 12.5716L4.70176 10.5149Z' fill='white')
+										defs
+											clippath#clip0_2449_12897
+												rect(width='16' height='16' fill='white' transform='translate(0 0.5)')
+									|                 Вся Россия
+							.right-menu__block
+								.right-menu__subtitle По трекам
+								button.right-menu__active-region._track Все треки
+								ul.right-menu__list
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодежь.Добро
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодёжь.Бизнес
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Роспатриот
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодёжь.Креатив
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодёжь.Технологии
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодёжь.Карьера
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодёжь.+World
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Росмолодёжь.Импакт
+									li.right-menu__item
+										a.right-menu__link(href='javascript:void(0);') Грантовая поддержка
+						.right-menu__choose-region.js-region
+							.right-menu__region-head
+								a.right-menu__come-back.js-btn-track(href='javascript:void(0);')
+									svg(width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg')
+										path(d='M2 10.5L20 10.5M2 10.5L10.5 1.5M2 10.5L10.5 19.5' stroke='#8C64D8' stroke-width='2')
+								p.right-menu__subtitle Выберите регион
+							.committees__search
+								button.btn-reset
+									svg
+										use(href='./assets/svg/sprite-version2.svg#search')
+								input.input-reset.committees__search-input(type='text' placeholder='Введите название населенного пункта')
+							.committees-list
+								.committees-list__column
+									.committees-list__item
+										span А
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=96')  Адыгея 
+											li
+												a(href='/contacts/?SECTION_ID=185') Алтай 
+											li
+												a(href='/contacts/?SECTION_ID=194') Алтайский край
+											li
+												a(href='/contacts/?SECTION_ID=195') Амурская обл.
+											li
+												a(href='/contacts/?SECTION_ID=196') Архангельская обл.
+											li
+												a(href='/contacts/?SECTION_ID=197') Астраханская обл. 
+									.committees-list__item
+										span Б
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=198') Башкортостан 
+											li
+												a(href='/contacts/?SECTION_ID=199') Белгородская обл.
+											li
+												a(href='/contacts/?SECTION_ID=200') Брянская обл.
+											li
+												a(href='/contacts/?SECTION_ID=201') Бурятия
+									.committees-list__item
+										span В
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=202') Владимирская обл.
+											li
+												a(href='/contacts/?SECTION_ID=203') Волгоградская обл.
+											li
+												a(href='/contacts/?SECTION_ID=204') Вологодская обл.
+											li
+												a(href='/contacts/?SECTION_ID=205') Воронежская обл. 
+									.committees-list__item
+										span Д
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=206') Дагестан 
+											li
+												a(href='/contacts/?SECTION_ID=207') Донецкая Народная Республика 
+									.committees-list__item
+										span Е
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=208') Еврейская АО 
+									.committees-list__item
+										span З
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=209') Забайкальский край
+											li
+												a(href='/contacts/?SECTION_ID=210') Запорожская область 
+									.committees-list__item
+										span И
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=211') Ивановская обл.
+											li
+												a(href='/contacts/?SECTION_ID=212') Ингушетия 
+											li
+												a(href='/contacts/?SECTION_ID=213') Иркутская обл. 
+								.committees-list__column
+									.committees-list__item
+										span К
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=214') Кабардино-Балкария
+											li
+												a(href='/contacts/?SECTION_ID=187') Калининградская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=235') Калмыкия 
+											li
+												a(href='/contacts/?SECTION_ID=236') Калужская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=237') Камчатский край
+											li
+												a(href='/contacts/?SECTION_ID=238') Карачаево-Черкесия 
+											li
+												a(href='/contacts/?SECTION_ID=239') Карелия 
+											li
+												a(href='/contacts/?SECTION_ID=240') Кемеровская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=241') Кировская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=242') Коми 
+											li
+												a(href='/contacts/?SECTION_ID=243') Костромская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=244') Краснодарский край 
+											li
+												a(href='/contacts/?SECTION_ID=245') Красноярский край 
+											li
+												a(href='/contacts/?SECTION_ID=246') Крым 
+											li
+												a(href='/contacts/?SECTION_ID=247') Курганская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=248') Курская обл. 
+									.committees-list__item
+										span Л
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=249') Ленинградская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=250') Липецкая обл. 
+											li
+												a(href='/contacts/?SECTION_ID=251') Луганская Народная Республика 
+									.committees-list__item
+										span М
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=252') Магаданская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=253') Марий Эл 
+											li
+												a(href='/contacts/?SECTION_ID=254') Мордовия 
+											li
+												a(href='/contacts/?SECTION_ID=188') Москва 
+											li
+												a(href='/contacts/?SECTION_ID=255') Московская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=256') Мурманская обл. 
+								.committees-list__column
+									.committees-list__item
+										span Н
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=257') Ненецкий АО 
+											li
+												a(href='/contacts/?SECTION_ID=258') Нижегородская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=259') Новгородская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=260') Новосибирская обл. 
+									.committees-list__item
+										span О
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=261') Омская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=262') Оренбургская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=263') Орловская обл. 
+									.committees-list__item
+										span П
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=264') Пензенская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=265') Пермский край 
+											li
+												a(href='/contacts/?SECTION_ID=266') Приморский край 
+											li
+												a(href='/contacts/?SECTION_ID=267') Псковская обл. 
+									.committees-list__item
+										span Р
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=268') Ростовская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=269') Рязанская обл. 
+									.committees-list__item
+										span С
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=270') Самарская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=271') Санкт-Петербург 
+											li
+												a(href='/contacts/?SECTION_ID=272') Саратовская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=273') Сахалинская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=274') Свердловская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=275') Севастополь 
+											li
+												a(href='/contacts/?SECTION_ID=276') Северная Осетия-Алания 
+											li
+												a(href='/contacts/?SECTION_ID=277') Смоленская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=278') Ставропольский край 
+								.committees-list__column
+									.committees-list__item
+										span Т
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=215') Тамбовская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=216') Татарстан 
+											li
+												a(href='/contacts/?SECTION_ID=217') Тверская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=218') Томская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=219') Тульская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=220') Тыва 
+											li
+												a(href='/contacts/?SECTION_ID=221') Тюменская обл. 
+									.committees-list__item
+										span У
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=222') Удмуртия 
+											li
+												a(href='/contacts/?SECTION_ID=223') Ульяновская обл. 
+									.committees-list__item
+										span Х
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=225') Хабаровский край 
+											li
+												a(href='/contacts/?SECTION_ID=226') Хакасия 
+											li
+												a(href='/contacts/?SECTION_ID=227') Херсонская область 
+											li
+												a(href='/contacts/?SECTION_ID=224') ХМАО — Югра 
+									.committees-list__item
+										span Ч
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=228') Челябинская обл. 
+											li
+												a(href='/contacts/?SECTION_ID=229') Чечня 
+											li
+												a(href='/contacts/?SECTION_ID=230') Чувашия 
+											li
+												a(href='/contacts/?SECTION_ID=231') Чукотский АО 
+									.committees-list__item
+										span Я
+										ul.list-reset
+											li
+												a(href='/contacts/?SECTION_ID=232') Якутия 
+											li
+												a(href='/contacts/?SECTION_ID=233') Ямало-Ненецкий АО 
+											li
+												a(href='/contacts/?SECTION_ID=234') Ярославская обл. 
+				.right-menu__close.js-close
+					svg.icon.close(width='18' height='18' viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg')
+						path(d='M1 1L17 17' stroke='black')
+						path(d='M17 1L1 17' stroke='black')
+			.overlay
+			// END  Фильтр по регионам и направлениям (шестеренка)
+			ul.socials.list-reset
+				li.socials__item
+					a.socials__link(href='#')
+						svg
+							use(xlink:href='./assets/svg/sprite.svg#vk')
+				li.socials__item
+					a.socials__link(href='#')
+						svg
+							use(xlink:href='./assets/svg/sprite.svg#tg')
+				li.socials__item
+					a.socials__link(href='#')
+						svg
+							use(xlink:href='./assets/svg/sprite.svg#social3')
+				li.socials__item
+					a.socials__link(href='#')
+						svg
+							use(xlink:href='./assets/svg/sprite.svg#ok')
+				li.socials__item
+					a.socials__link(href='#')
+						svg
+							use(xlink:href='./assets/svg/sprite.svg#social5')
+				li.socials__item
+					a.socials__link(href='#')
+						svg
+							use(xlink:href='./assets/svg/sprite.svg#tiktok')
+			main.main
+				section.hero.hero--page
+					.container
+						.breadcrumbs-wrapper
+							ul.breadcrumbs.list-reset
+								li.breadcrumbs__item
+									a.breadcrumbs__link(href='#') Главная
+								li.breadcrumbs__item
+									a.breadcrumbs__link(href='#') Агенство
+								li.breadcrumbs__item
+									a.breadcrumbs__link.active(href='#') Об агенстве
+
+						a.link-back(href="#")  Назад
+						h1.section-title Мастерская управления «Сенеж»
+						.center-item.center-item--page 
+							.col
+								.center-item__title= t
+								p Мастерская управления «Сенеж» – образовательный центр, на базе которого проводятся обучающие программы и мероприятия для молодёжи: лидеров общественных организаций, социальных активистов, волонтёров, молодых профессионалов (юристов, экономистов, журналистов, социологов, преподавателей, ученых). 
+
+								p Помимо обучающих мероприятий в Мастерской управления «Сенеж» проходят очные этапы проектов президентской платформы «Россия – страна возможностей» – семинары, стратегические сессии, форумы и конференции
+								ul.socials.list-reset
+									li.socials__item
+										a.socials__link(href='#')
+											.socials__link-icon-wrap
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#vk')
+											.socials__link-text Трек во вконтакте
+									li.socials__item
+										a.socials__link(href='#')
+											.socials__link-icon-wrap
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#tg')
+											.socials__link-text Трек во Telegram
+							.center-item__img-wrap
+								img(src=`assets/img/logo-center.png`, alt="")
+						.slider.m-0
+							.gal-slider.gal-slider--js.swiper
+								.swiper-wrapper
+									- for (var x = 0; x < 6; x++)
+										.gal-slider__slide.swiper-slide
+											a(href="#").gal-slider__img-wrap
+												img(src="assets/img/8b5c60d0df6b6f9c7398f5c9a217bcb5.png", alt="")
+							.swiper-pagination
+			section.sPromgrams
+				.container
+					h2 Образовательные программы
+
+					ul
+						- for (var x = 0; x < 8; x++)
+							li
+								a(href="#")
+									.link-text Всероссийского молодёжного образовательного форума «Территория смыслов» платформы Росмолодёжь.События
+							li
+								a(href="#")
+									.link-text Всероссийского молодёжного образовательного форума «Территория смыслов» платформы Росмолодёжь.События
+			footer.footer
+				.container
+					.footer__top
+						.footer__top-item
+							a.logo.footer__logo(href='inde.html')
+								img(src='assets/img/globa/logo-footer.svg' alt='')
+							ul.socials.list-reset.footer__socials
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#vk')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#tg')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#social3')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#ok')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#social5')
+								li.socials__item
+									a.socials__link(href='#')
+										svg
+											use(xlink:href='./assets/svg/sprite.svg#tiktok')
+						.footer__top-item
+							ul.footer__nav.footer__nav--tablet.list-reset
+								li.footer__nav-item
+									a(href='#')
+										| Агентство
+								li.footer__nav-item
+									a(href='#')
+										| Деятельность
+								li.footer__nav-item
+									a(href='#')
+										| Пресс-служба
+							ul.footer__nav.list-reset
+								li.footer__nav-item
+									a(href='#')
+										| Агентство
+								li.footer__nav-item
+									a(href='#')
+										| Деятельность
+								li.footer__nav-item
+									a(href='#')
+										| Пресс-служба
+								li.footer__nav-item
+									a(href='#')
+										| Документы
+								li.footer__nav-item
+									a(href='#')
+										| Новости
+								li.footer__nav-item
+									a(href='#')
+										| Опросы
+								li.footer__nav-item
+									a(href='#')
+										| Обратная связь
+						.footer__top-item
+							ul.footer__nav.list-reset
+								li.footer__nav-item
+									a(href='#')
+										| Обратиться в агенство
+								li.footer__nav-item
+									a(href='#')
+										| Открытое агенство
+								li.footer__nav-item
+									a(href='#')
+										| Противодействие коррупции
+								li.footer__nav-item
+									a(href='#')
+										| Противодействие терроризму
+								li.footer__nav-item
+									a(href='#')
+										| Государственная услуга
+						.footer__top-item
+							.footer__info
+								.footer__address
+									span.footer__address-top Адрес
+									span.footer__address-bottom
+										| 109028, Москва, Большой Трехсвятительский переулок,
+										| д. 2/1, стр. 2 Китай-город
+								.footer__time
+									.footer__time-wrap
+										span.footer__time-top Понедельник — Четверг
+										span.footer__time-bottom 9:00-18:00
+									.footer__time-wrap
+										span.footer__time-top Пятница
+										span.footer__time-bottom 9:00-16:45
+								.footer__mail
+									span.footer__mail-top Электронная почта
+									a(href='mailto:Op@fadm.gov.ru') Op@fadm.gov.ru
+								.footer__tablet
+									ul.socials.list-reset.footer__socials
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#vk')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#tg')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#social3')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#ok')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#social5')
+										li.socials__item
+											a.socials__link(href='#')
+												svg
+													use(xlink:href='./assets/svg/sprite.svg#tiktok')
+								a.footer__phone(href='tel:74956688008') +7 495 668-80-08
+					.footer__bottom
+						a.footer__copyright(href='#')
+							| © 2008-2020 Федеральное агентство по делам молодежи
+							| (Росмолодёжь)
+						ul.footer__bottom-nav.list-reset
+							li
+								a(href='#') Карта сайта
+							li
+								a(href='#') Все контакты
+							li
+								a(href='#') Технические сведения
+							li
+								a(href='#') Правовая информация
+		script(src='assets/plugins/swiper/swiper.min.js')
+		script(src='js/index.js')
+		script(src='js/main.js')
+		script(src='js/aside-menu.js')
