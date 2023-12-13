@@ -46,6 +46,35 @@
 
 .hero--page{
   color: #fff;
+  &::before,
+  &::after{
+    display: none;
+  }
+  .container-head{
+    position: relative;
+  }
+  .container-head:before {
+    content: "" !important;
+    position: absolute;
+    bottom: -400px;
+    left: 100%;
+    z-index: -1;
+    width: 402px;
+    height: 666px;
+    background-image: url("../assets/img/index/decore-right.png");
+    background-repeat: no-repeat; 
+  }
+  .container-head:after {
+    content: "" !important;
+    position: absolute;
+    top: -200px;
+    right: 100%;
+    z-index: -1;
+    width: 394px;
+    height: 707px;
+    background-image: url("../assets/img/index/decore-left.png");
+    background-repeat: no-repeat; 
+  }
   h1{
     color: #fff;
     margin-bottom: 1em;
