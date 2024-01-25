@@ -1,20 +1,20 @@
 @charset "UTF-8";
 
 :root {
-  --font-family: "GTE", sans-serif;
+  --font-family: 'GTE', sans-serif;
   --content-width: 1310px;
   --container-offset: 15px;
   --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
   --light-color: #fff;
   --black-color: #252525;
   --gray-color: #535353;
-  --primary-color: #8C64D8;
-  --secondary-color: #DAEF14;
-  --primary-hover-color: #9D7DE0;
-  --primary-active-color: #5B4095;
-  --secondary-hover-color: #EDFF3F;
-  --secondary-active-color: #C2D31B;
-  --base-transition: all .3s ease;
+  --primary-color: #8c64d8;
+  --secondary-color: #daef14;
+  --primary-hover-color: #9d7de0;
+  --primary-active-color: #5b4095;
+  --secondary-hover-color: #edff3f;
+  --secondary-active-color: #c2d31b;
+  --base-transition: all 0.3s ease;
 }
 
 path {
@@ -94,7 +94,6 @@ a {
   min-height: 100%;
   width: 100%;
   position: relative;
-
 }
 
 .main {
@@ -143,7 +142,7 @@ a {
   display: none;
 }
 
-input[type=number] {
+input[type='number'] {
   -moz-appearance: textfield;
 }
 
@@ -201,24 +200,27 @@ fieldset {
 
 @font-face {
   font-display: swap;
-  font-family: "GTE";
-  src: local("GTEestiProDisplay-Light"), url("./fonts/GTEestiProDisplay-Light.woff2") format("woff2");
+  font-family: 'GTE';
+  src: local('GTEestiProDisplay-Light'),
+    url('./fonts/GTEestiProDisplay-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-display: swap;
-  font-family: "GTE";
-  src: local("GTEestiProDisplay-Regular"), url("./fonts/GTEestiProDisplay-Regular.woff2") format("woff2");
+  font-family: 'GTE';
+  src: local('GTEestiProDisplay-Regular'),
+    url('./fonts/GTEestiProDisplay-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-display: swap;
-  font-family: "GTE";
-  src: local("GTEestiProDisplay-Medium"), url("./fonts/GTEestiProDisplay-Medium.woff2") format("woff2");
+  font-family: 'GTE';
+  src: local('GTEestiProDisplay-Medium'),
+    url('./fonts/GTEestiProDisplay-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
@@ -286,7 +288,7 @@ fieldset {
 .btn--border:active {
   background-color: var(--primary-active-color);
   color: var(--light-color);
-  border: 2px solid #8C64D8;
+  border: 2px solid #8c64d8;
 }
 
 .btn--lightprimary {
@@ -309,7 +311,7 @@ fieldset {
   line-height: 19px !important;
   color: var(--primary-color);
   padding-left: 32px;
-  background-image: url("../assets/img/globa/filter-icon.svg");
+  background-image: url('../assets/img/globa/filter-icon.svg');
   background-size: 16px 16px;
   background-repeat: no-repeat;
   background-position: top 2px left 0;
@@ -413,7 +415,7 @@ fieldset {
 .swiper-button svg {
   width: 16px;
   height: 18px;
-  fill: #8C64D8;
+  fill: #8c64d8;
   -webkit-transition: var(--base-transition);
   -o-transition: var(--base-transition);
   transition: var(--base-transition);
@@ -450,7 +452,7 @@ fieldset {
   top: 73px;
   left: calc(100% - 136px);
   z-index: 50;
-  display: none;
+  /* display: none; */
 }
 
 .socials__item:not(:last-child) {
@@ -489,7 +491,7 @@ fieldset {
 
 .burger::before,
 .burger::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 100%;
@@ -694,7 +696,7 @@ fieldset {
 .footer {
   padding-top: 24px;
   padding-bottom: 24px;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .footer__top {
@@ -878,7 +880,7 @@ fieldset {
 @media screen and (min-width: 768px) {
   .footer {
     padding-top: 29px;
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
   }
 
   .footer__top {
@@ -1055,7 +1057,7 @@ fieldset {
   .footer {
     padding-top: 82px;
     padding-bottom: 35px;
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
   }
 
   .footer__top {
@@ -1265,14 +1267,14 @@ fieldset {
 }
 
 .breadcrumbs__item:not(:last-child)::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 3px;
   right: -34px;
   z-index: 1;
   width: 20px;
   height: 20px;
-  background-image: url("../assets/img/globa/breadcrumbs-arrow.svg");
+  background-image: url('../assets/img/globa/breadcrumbs-arrow.svg');
   background-repeat: no-repeat;
 }
 
@@ -1298,14 +1300,14 @@ fieldset {
   align-items: normal;
   font-size: 16px;
   line-height: 19px;
-  color: #8C64D8;
+  color: #8c64d8;
   text-transform: capitalize;
 }
 
 .back-page .left-arrow {
   width: 15px;
   height: 15px;
-  fill: #8C64D8;
+  fill: #8c64d8;
   padding: 4px;
 }
 
@@ -1336,7 +1338,7 @@ fieldset {
 }
 
 .info .time {
-  background-color: #DAEF14;
+  background-color: #daef14;
   color: var(--primary-color);
 }
 
@@ -1345,7 +1347,7 @@ fieldset {
 }
 
 .info .tag {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   color: var(--primary-color);
 }
 
@@ -1353,7 +1355,7 @@ fieldset {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   border-radius: 8px;
   padding: 10px 10px 10px 4px;
 }
@@ -1406,11 +1408,11 @@ fieldset {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 16px 0;
-  border-top: 1px solid #DCDCDC;
+  border-top: 1px solid #dcdcdc;
 }
 
 .links__link:last-of-type {
-  border-bottom: 1px solid #DCDCDC;
+  border-bottom: 1px solid #dcdcdc;
 }
 
 .links__link span {
@@ -1733,7 +1735,7 @@ fieldset {
 }
 
 .management-item {
-  border: 1px solid #DCDCDC;
+  border: 1px solid #dcdcdc;
   border-radius: 32px;
   grid-column: 4 span;
   padding: 24px 24px 0 24px;
@@ -1996,7 +1998,7 @@ fieldset {
 
 .pagination-list__item:first-child a {
   background-color: var(--primary-color);
-  background-image: url("../assets/img/globa/arrow-pagination.svg");
+  background-image: url('../assets/img/globa/arrow-pagination.svg');
   background-repeat: no-repeat;
   background-size: 6px 12px;
   background-position: center center;
@@ -2004,7 +2006,7 @@ fieldset {
 
 .pagination-list__item:last-child a {
   background-color: var(--primary-color);
-  background-image: url("../assets/img/globa/arrow-pagination.svg");
+  background-image: url('../assets/img/globa/arrow-pagination.svg');
   background-repeat: no-repeat;
   background-size: 6px 12px;
   background-position: center center;
@@ -2014,7 +2016,7 @@ fieldset {
 }
 
 .pagination-list__link {
-  transition: all .36s ease-in;
+  transition: all 0.36s ease-in;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2029,9 +2031,9 @@ fieldset {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #7A7A7A;
+  color: #7a7a7a;
   background-color: transparent;
-  border: 1px solid #EDEDED;
+  border: 1px solid #ededed;
   border-radius: 16px;
 }
 
@@ -2068,7 +2070,7 @@ fieldset {
 }
 
 .tabs-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -12px;
   left: 0;
@@ -2113,7 +2115,7 @@ fieldset {
   }
 
   .tabs-btn::after {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -12px;
     left: 0;
@@ -2336,7 +2338,7 @@ fieldset {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-  color: #8C64D8;
+  color: #8c64d8;
 }
 
 .header-mobile-item.active .icon.сhevron-up {
@@ -2392,7 +2394,7 @@ fieldset {
   color: #252525;
 }
 
-.nav__burger.active~.header-mobile {
+.nav__burger.active ~ .header-mobile {
   display: block;
 }
 
