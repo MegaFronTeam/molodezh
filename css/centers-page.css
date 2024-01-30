@@ -210,6 +210,7 @@
 .gal-slider__img-wrap {
   aspect-ratio: 1;
   display: block;
+  outline: none;
 }
 .gal-slider__img-wrap img {
   -o-object-fit: cover;
