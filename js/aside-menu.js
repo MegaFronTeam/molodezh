@@ -1,12 +1,15 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function () {
+  Fancybox.bind("[data-fancybox]", {});
+
   let toggleMenu = document.querySelectorAll('.btn-reset--js');
   for (const item of toggleMenu) {
     item.addEventListener('click', function (e) {
       item.nextElementSibling.classList.toggle('active');
     });
   }
+
 
   new Swiper('.gal-slider--js', {
     // slidesPerView: 4,
