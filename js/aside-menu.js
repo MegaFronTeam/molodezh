@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
     pagination: {
       el: '.slider .swiper-pagination',
       type: 'bullets',
+      clickable: true,
     },
   });
 });
