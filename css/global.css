@@ -452,7 +452,11 @@ fieldset {
   top: 73px;
   left: calc(100% - 136px);
   z-index: 50;
-  /* display: none; */
+}
+@media screen and (max-width: 998px) {
+  .socials {
+    display: none;
+  }
 }
 
 .socials__item:not(:last-child) {
