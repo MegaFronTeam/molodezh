@@ -1,6 +1,9 @@
 .page__body {
   background: var(--secondary-color);
 }
+.btn {
+  font-family: var(--font-family, sans-serif);
+}
 .header {
   margin-bottom: 80px;
 }
@@ -14,8 +17,15 @@
   background: var(--light-color);
 }
 .socials {
-  left: calc(100% - 127px);
+  left: calc(97vw - 15px);
+  /* left: calc(100% - 127px); */
 }
+@media screen and (max-width: 1414px) {
+  .socials {
+    display: none;
+  }
+}
+
 
 .capital {
   margin-top: 50px;
